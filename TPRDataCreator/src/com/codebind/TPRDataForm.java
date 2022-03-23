@@ -54,14 +54,23 @@ public class TPRDataForm {
             }
         });
     }
-    public static void main(String args[]){
-        JFrame frame = new JFrame("TPRDataCreator");
-        frame.setContentPane(new TPRDataForm().mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        frame.pack();//sets the size of the window to the size of the frames
-        frame.setSize(500,500);
-        frame.setVisible(true);
-        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
-    }
+//    public static void main(String args[]){
+////        JFrame frame = new JFrame("TPRDataCreator");
+////        frame.setContentPane(new TPRDataForm().mainPanel);
+////        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//////        frame.pack();//sets the size of the window to the size of the frames
+////        frame.setSize(500,500);
+////        frame.setVisible(true);
+////        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+////        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+//
+//        JFrame frame = new JFrame("TPRDataCreator");
+//        frame.setContentPane(new FullForm().mainPanel);
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+////        frame.pack();//sets the size of the window to the size of the frames
+//        frame.setSize(1500,1000);
+//        frame.setVisible(true);
+//        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+//        frame.setLocation(dim.width/2-frame.getSize().width/2, dim.height/2-frame.getSize().height/2);
+//    }
 }
